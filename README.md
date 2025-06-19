@@ -1,10 +1,10 @@
-# 🥊 UFC Fight Winner Prediction
+# UFC Fight Winner Prediction
 
 This project uses machine learning models to predict the winner of UFC fights based on pre-fight statistics like fighter height, reach, win streak, and historical performance.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset includes detailed statistics for both fighters in each match, including:
 
@@ -16,7 +16,7 @@ The dataset includes detailed statistics for both fighters in each match, includ
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 The main goal is to build a model that can predict the **winner of a fight**:
 - `1` → Red fighter wins
@@ -24,7 +24,7 @@ The main goal is to build a model that can predict the **winner of a fight**:
 
 ---
 
-## 🧠 Machine Learning Models Used
+## Machine Learning Models Used
 
 I trained multiple models to compare performance:
 
@@ -38,7 +38,7 @@ To deal with class imbalance (more Red wins), I used:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each model was evaluated using:
 - Accuracy
@@ -53,7 +53,7 @@ Example performance (balanced models):
 
 ---
 
-## 📈 Feature Engineering
+## Feature Engineering
 
 I also experimented with engineered features like:
 - Combining fighter and opponent averages
@@ -62,14 +62,14 @@ I also experimented with engineered features like:
 
 ---
 
-## 📉 Visualizations
+## Visualizations
 
 - Class distribution (to show imbalance)
 - XGBoost feature importance
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 You can run this project in **Google Colab** or Jupyter Notebook.
 
